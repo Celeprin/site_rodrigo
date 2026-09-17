@@ -51,24 +51,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </section>
 
-      <section className="section">
-        <div className="container-max px-6 md:px-12">
-          <blockquote
-            className="max-w-2xl text-2xl md:text-4xl"
-            style={{ fontFamily: "var(--font-display)", fontWeight: 600, color: "var(--ink)", lineHeight: 1.25 }}
-          >
-            “{dict.about.mission}”
-          </blockquote>
-          <p className="mt-4 text-sm" style={{ color: "var(--ink-muted)" }}>
-            — {dict.about.missionTitle}, {dict.hero.eyebrow.split("—")[0]?.trim()}
-          </p>
-        </div>
-      </section>
-
       <section className="section" style={{ background: "var(--surface-200)" }}>
         <div className="container-max px-6 md:px-12">
           <p className="eyebrow">{dict.process.title}</p>
-          <div className="mt-8 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          <h2
+            className="mt-4 max-w-2xl text-3xl md:text-5xl"
+            style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--ink)", lineHeight: 1.05, letterSpacing: "-0.01em" }}
+          >
+            {dict.process.headlineLead}{" "}
+            <em style={{ fontStyle: "italic", fontWeight: 600 }}>{dict.process.headlineEmphasis}</em>
+          </h2>
+          <div className="mt-14 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
             {dict.process.steps.map((step, i) => (
               <div key={step.title} className="border-t pt-6" style={{ borderColor: "var(--line)" }}>
                 <span className="text-sm" style={{ color: "var(--walnut-600)" }}>
