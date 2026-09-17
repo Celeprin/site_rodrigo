@@ -28,11 +28,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         />
         <CornerMark className="absolute top-6 right-6 z-10 hidden sm:block" />
         <div className="container-max relative z-10 px-6 pb-16 md:px-12 md:pb-24">
-          <p className="eyebrow" style={{ color: "#C98F5C" }}>
-            {dict.hero.eyebrow}
-          </p>
           <h1
-            className="mt-5 max-w-4xl text-5xl font-bold text-white md:text-7xl"
+            className="max-w-4xl text-5xl font-bold text-white md:text-7xl"
             style={{ fontFamily: "var(--font-display)", lineHeight: 0.96, letterSpacing: "-0.01em" }}
           >
             {dict.hero.headlineLead} <em style={{ fontStyle: "italic", fontWeight: 600 }}>{dict.hero.headlineEmphasis}</em>
