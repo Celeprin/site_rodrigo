@@ -9,7 +9,7 @@ export default function Header({ locale, dict }: { locale: Locale; dict: Diction
   return (
     <header
       className="sticky top-0 z-50 border-b backdrop-blur-sm"
-      style={{ borderColor: "var(--line)", background: "color-mix(in srgb, var(--surface-100) 92%, transparent)" }}
+      style={{ borderColor: "var(--line)", background: "var(--header-bg)" }}
     >
       <div className="container-max relative flex items-center justify-between px-6 py-4 md:px-12">
         <Link href={`/${locale}`} className="flex items-center gap-3">
