@@ -95,3 +95,42 @@ body {
 .hairline {
   border-color: var(--line);
 }
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  background: #f5f1e8;
+  color: var(--navy-900);
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+}
+
+.btn-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: inherit;
+  transition: gap 0.2s ease;
+}
+
+.btn-text:hover {
+  gap: 11px;
+}
+
+.portrait-fade {
+  -webkit-mask-image: radial-gradient(ellipse 60% 72% at 50% 34%, black 38%, transparent 96%);
+  mask-image: radial-gradient(ellipse 60% 72% at 50% 34%, black 38%, transparent 96%);
+}
+
+.portrait-scrim {
+  background: radial-gradient(ellipse 60% 72% at 50% 34%, transparent 40%, var(--navy-900) 92%);
+}

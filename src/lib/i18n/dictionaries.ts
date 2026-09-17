@@ -5,8 +5,10 @@ export const dictionaries = {
     nav: { home: "Home", portfolio: "Portfólio", about: "Sobre", contact: "Contato" },
     hero: {
       eyebrow: "Rodrigo Vielmo Studio — Arquitetura & Interiores",
-      headline: "Espaços desenhados com precisão, do primeiro traço ao último detalhe.",
+      headlineLead: "Espaços desenhados com precisão, do primeiro traço ao",
+      headlineEmphasis: "último detalhe.",
       lead: "Transformamos necessidades reais em espaços personalizados, funcionais e tecnicamente bem resolvidos.",
+      locations: "São Francisco de Assis · Santa Maria · Goiânia — atendimento presencial e remoto",
       ctaPortfolio: "Ver portfólio",
       ctaContact: "Falar com o estúdio",
     },
@@ -26,6 +28,7 @@ export const dictionaries = {
     aboutTeaser: {
       title: "Quem assina o projeto",
       body: "Rodrigo Vielmo Moura é arquiteto e urbanista, com passagens pela Universidade do Porto, Politecnico di Milano e Organização das Nações Unidas — oito anos dedicados a projetos arquitetônicos, interiores e planejamento urbano.",
+      credentials: ["Universidade do Porto", "Politecnico di Milano", "Organização das Nações Unidas"],
       cta: "Conheça o estúdio",
     },
     portfolio: {
@@ -64,8 +67,10 @@ export const dictionaries = {
     nav: { home: "Home", portfolio: "Portfolio", about: "About", contact: "Contact" },
     hero: {
       eyebrow: "Rodrigo Vielmo Studio — Architecture & Interiors",
-      headline: "Spaces designed with precision, from the first line to the last detail.",
+      headlineLead: "Spaces designed with precision, from the first line to the",
+      headlineEmphasis: "last detail.",
       lead: "We turn real needs into personalized spaces — functional and technically well resolved.",
+      locations: "São Francisco de Assis · Santa Maria · Goiânia — on-site and remote",
       ctaPortfolio: "View portfolio",
       ctaContact: "Talk to the studio",
     },
@@ -85,6 +90,7 @@ export const dictionaries = {
     aboutTeaser: {
       title: "Behind the studio",
       body: "Rodrigo Vielmo Moura is an architect and urban planner who has worked with the University of Porto, Politecnico di Milano and the United Nations — eight years dedicated to architectural, interior and urban planning projects.",
+      credentials: ["University of Porto", "Politecnico di Milano", "United Nations"],
       cta: "Meet the studio",
     },
     portfolio: {
@@ -123,8 +129,10 @@ export const dictionaries = {
     nav: { home: "Home", portfolio: "Portfolio", about: "Chi siamo", contact: "Contatti" },
     hero: {
       eyebrow: "Rodrigo Vielmo Studio — Architettura & Interni",
-      headline: "Spazi disegnati con precisione, dal primo tratto all'ultimo dettaglio.",
+      headlineLead: "Spazi disegnati con precisione, dal primo tratto",
+      headlineEmphasis: "all'ultimo dettaglio.",
       lead: "Trasformiamo esigenze reali in spazi personalizzati, funzionali e tecnicamente ben risolti.",
+      locations: "São Francisco de Assis · Santa Maria · Goiânia — in loco e da remoto",
       ctaPortfolio: "Vedi il portfolio",
       ctaContact: "Parla con lo studio",
     },
@@ -144,6 +152,7 @@ export const dictionaries = {
     aboutTeaser: {
       title: "Chi firma il progetto",
       body: "Rodrigo Vielmo Moura è architetto e urbanista, con esperienze all'Università di Porto, al Politecnico di Milano e alle Nazioni Unite — otto anni dedicati a progetti di architettura, interni e pianificazione urbana.",
+      credentials: ["Università di Porto", "Politecnico di Milano", "Nazioni Unite"],
       cta: "Scopri lo studio",
     },
     portfolio: {
