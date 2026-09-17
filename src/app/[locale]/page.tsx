@@ -113,16 +113,16 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <p className="eyebrow" style={{ color: "#C98F5C" }}>
               {dict.aboutTeaser.title}
             </p>
-            <p className="mt-4 max-w-xl text-base md:text-lg" style={{ color: "#F5F1E8" }}>
+            <h2
+              className="mt-4 max-w-xl text-3xl md:text-5xl"
+              style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "#F5F1E8", lineHeight: 1.05, letterSpacing: "-0.01em" }}
+            >
+              {dict.aboutTeaser.headlineLead}{" "}
+              <em style={{ fontStyle: "italic", fontWeight: 600 }}>{dict.aboutTeaser.headlineEmphasis}</em>
+            </h2>
+            <p className="mt-6 max-w-xl text-base md:text-lg" style={{ color: "#DCE3EC" }}>
               {dict.aboutTeaser.body}
             </p>
-            <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
-              {dict.aboutTeaser.credentials.map((c) => (
-                <li key={c} className="eyebrow" style={{ color: "#8DA0BE" }}>
-                  {c}
-                </li>
-              ))}
-            </ul>
             <Link href={`/${locale}/about`} className="btn-text mt-8" style={{ color: "#F5F1E8" }}>
               {dict.aboutTeaser.cta} <span aria-hidden style={{ color: "#C98F5C" }}>→</span>
             </Link>

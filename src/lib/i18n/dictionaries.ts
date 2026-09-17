@@ -29,8 +29,9 @@ export const dictionaries = {
     },
     aboutTeaser: {
       title: "Quem assina o projeto",
-      body: "Rodrigo Vielmo Moura é arquiteto e urbanista, com passagens pela Universidade do Porto, Politecnico di Milano e Organização das Nações Unidas — oito anos dedicados a projetos arquitetônicos, interiores e planejamento urbano.",
-      credentials: ["Universidade do Porto", "Politecnico di Milano", "Organização das Nações Unidas"],
+      headlineLead: "Arquiteto e urbanista, formado entre",
+      headlineEmphasis: "Porto, Milão e Nova York.",
+      body: "Oito anos dedicados a projetos arquitetônicos, interiores e planejamento urbano — do desenho ao acompanhamento da obra.",
       cta: "Conheça o estúdio",
     },
     portfolio: {
@@ -93,8 +94,9 @@ export const dictionaries = {
     },
     aboutTeaser: {
       title: "Behind the studio",
-      body: "Rodrigo Vielmo Moura is an architect and urban planner who has worked with the University of Porto, Politecnico di Milano and the United Nations — eight years dedicated to architectural, interior and urban planning projects.",
-      credentials: ["University of Porto", "Politecnico di Milano", "United Nations"],
+      headlineLead: "Architect and urban planner, trained between",
+      headlineEmphasis: "Porto, Milan and New York.",
+      body: "Eight years dedicated to architectural, interior and urban planning projects — from the drawing board to the finished space.",
       cta: "Meet the studio",
     },
     portfolio: {
@@ -157,8 +159,9 @@ export const dictionaries = {
     },
     aboutTeaser: {
       title: "Chi firma il progetto",
-      body: "Rodrigo Vielmo Moura è architetto e urbanista, con esperienze all'Università di Porto, al Politecnico di Milano e alle Nazioni Unite — otto anni dedicati a progetti di architettura, interni e pianificazione urbana.",
-      credentials: ["Università di Porto", "Politecnico di Milano", "Nazioni Unite"],
+      headlineLead: "Architetto e urbanista, formato tra",
+      headlineEmphasis: "Porto, Milano e New York.",
+      body: "Otto anni dedicati a progetti di architettura, interni e pianificazione urbana — dal disegno alla realizzazione.",
       cta: "Scopri lo studio",
     },
     portfolio: {
