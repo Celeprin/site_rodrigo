@@ -9,29 +9,30 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
 
   return (
     <>
-      <section className="section pb-0!">
-        <div className="container-max grid gap-12 px-6 md:grid-cols-[320px_1fr] md:px-12">
-          <div className="relative aspect-[4/5] w-full overflow-hidden" style={{ background: "var(--surface-200)" }}>
+      <section className="section" style={{ background: "var(--navy-900)" }}>
+        <div className="container-max grid gap-6 px-6 md:grid-cols-[1fr_1fr] md:items-center md:gap-4 md:px-12">
+          <div className="relative aspect-[4/5] w-full max-w-[480px] mx-auto md:mx-0">
             <Image
               src="/images/team/rodrigo-vielmo-moura-retrato.jpg"
               alt="Rodrigo Vielmo Moura"
               fill
-              className="object-cover"
+              className="portrait-fade object-cover object-top"
             />
+            <div className="portrait-scrim absolute inset-0 pointer-events-none" />
           </div>
           <div>
             <h1
               className="text-3xl md:text-5xl"
-              style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--ink)" }}
+              style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "#F5F1E8" }}
             >
               {dict.about.title}
             </h1>
-            <p className="mt-2 text-sm" style={{ color: "var(--walnut-600)" }}>
+            <p className="eyebrow mt-2" style={{ color: "#C98F5C" }}>
               {dict.about.roleLabel} — Rodrigo Vielmo Moura
             </p>
-            <div className="mt-8 flex flex-col gap-5 max-w-2xl">
+            <div className="mt-6 flex flex-col gap-5 max-w-xl">
               {dict.about.bio.map((paragraph, i) => (
-                <p key={i} className="text-base" style={{ color: "var(--ink)", lineHeight: 1.7 }}>
+                <p key={i} className="text-base" style={{ color: "#DCE3EC", lineHeight: 1.7 }}>
                   {paragraph}
                 </p>
               ))}
