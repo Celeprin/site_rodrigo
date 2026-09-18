@@ -10,7 +10,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
   return (
     <>
       <section className="section" style={{ background: "var(--navy-900)" }}>
-        <div className="container-max grid gap-6 px-6 md:grid-cols-[1fr_1fr] md:items-center md:gap-4 md:px-12">
+        <div className="container-max grid gap-6 px-6 md:grid-cols-[1fr_1fr] md:items-start md:gap-4 md:px-12">
           <div className="relative aspect-[4/5] w-full max-w-[480px] mx-auto md:mx-0">
             <Image
               src="/images/team/rodrigo-vielmo-moura-retrato.jpg"
